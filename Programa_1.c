@@ -192,7 +192,7 @@ int main(int argc, char **argv){
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB);
     glutInitWindowPosition(100,100);
     glutInitWindowSize(ancho,alto);
-    glutCreateWindow("Programa 1");
+    glutCreateWindow("Programa 1 branch");
     init();
     glutDisplayFunc(display);
     glutReshapeFunc(reshape);
